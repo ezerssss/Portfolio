@@ -1,1 +1,1 @@
-export const commands = ['cls', 'shprojects', 'help'];
+export const commands = ['cls', 'shprojects', 'help', 'quit'];

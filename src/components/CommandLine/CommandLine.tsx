@@ -67,6 +67,7 @@ const CommandLine = (props: IProps) => {
       return;
     }
     const inputtedCommand = event.target.value.toLowerCase();
+    event.target.value = '';
     if (commands.find((command) => command === inputtedCommand)) {
       clearCommandHistory();
       if (inputtedCommand === 'shprojects') {
@@ -74,9 +75,10 @@ const CommandLine = (props: IProps) => {
         setShowCommandLineDetails(true);
       } else if (inputtedCommand === 'help') {
         setShowCommandLineHelp(true);
+      } else if (inputtedCommand === 'quit') {
+        setShowCommandLine(false);
       }
     }
-    event.target.value = '';
   };
 
   const closeCommandLine = () => setShowCommandLine(false);
