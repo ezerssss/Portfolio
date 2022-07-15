@@ -4,7 +4,7 @@ import CommandLine from './components/CommandLine/CommandLine';
 import PlainPortfolio from './components/PlainPortfolio/PlainPortfolio';
 
 const App = () => {
-  const [showCommandLine, setShowCommandLine] = useState(true);
+  const [showCommandLine, setShowCommandLine] = useState(false);
   return (
     <div className="flex" style={{ marginTop: '10px' }}>
       {showCommandLine && (
