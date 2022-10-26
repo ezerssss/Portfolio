@@ -1,17 +1,25 @@
 import React, { useState } from 'react';
-import plusSignLogo from '../../../images/plus.png';
-import FadeInOut from '../../FadeInOut';
+import plusSignLogo from '../../../../images/plus.png';
+import FadeInOut from '../../../FadeInOut';
 import FullDetails from './FullDetails';
 import MinimalDetails from './MinimalDetails';
 
-const PersonalDetails = () => {
+const GraphTraversalVisualizer = () => {
     const [showFullDetails, setShowFullDetails] = useState(false);
 
     return (
         <>
-            <h1>
+            <h3>
                 <span>
-                    Ezra Magbanua{' '}
+                    <u>
+                        <a
+                            href="https://graph-traversal-visualizer.vercel.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Graph Traversal Visualizer
+                        </a>
+                    </u>{' '}
                     <img
                         src={plusSignLogo}
                         alt="See more"
@@ -23,7 +31,7 @@ const PersonalDetails = () => {
                         }}
                     />
                 </span>
-            </h1>
+            </h3>
             <div className="indent">
                 <FadeInOut show={showFullDetails} children={<FullDetails />} />
                 <FadeInOut
@@ -35,4 +43,4 @@ const PersonalDetails = () => {
     );
 };
 
-export default PersonalDetails;
+export default GraphTraversalVisualizer;
