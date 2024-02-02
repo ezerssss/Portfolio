@@ -1,71 +1,75 @@
 #plain-container {
-  width: 80%;
-  min-width: 280px;
-  max-width: 800px;
-  display: flex;
-  align-items: center;
-  padding: 50px 0px;
+    width: 80%;
+    min-width: 280px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
 }
 
 h1 {
-  margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 hr {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 a {
-  color: #999999;
+    color: #999999;
+}
+
+#face {
+    border-radius: 10px;
 }
 
 p {
-  margin: 6px 0;
+    margin: 6px 0;
 }
 
 .gray {
-  color: #999999;
+    color: #999999;
 }
 
 .indent {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 @keyframes fadeOut {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .fadeIn {
-  animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
 
 .fadeOut {
-  animation: fadeOut 1s;
+    animation: fadeOut 1s;
 }
 
 .plus {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 h3,
 h4 {
-  margin: 0;
-  margin-top: 10px;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .skvllpvnkz-image {
-  margin-top: 10px;
+    margin-top: 10px;
 }

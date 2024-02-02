@@ -35,12 +35,21 @@ const FullDetails = () => {
                 <p>
                     Description:{' '}
                     <span className="gray">
-                        Full-stack Web Developer based in Cebu, Philippines.
-                        Hard worker with a burning passion in learning new
-                        things about technology everyday. Interested in finding
-                        the best solutions to complex problems. Always reading
-                        about the latest Industry standards. HARD WORKER,
-                        PASSIONATE, DEDICATED.
+                        Experienced and versatile professional with a strong
+                        background in web technologies, including React,
+                        Next.js, HTML, CSS, JavaScript, and GCP services such as
+                        Firebase and Cloud functions. As the main frontend
+                        developer for a crypto startup, I contributed to the
+                        success of the project. Additionally, I served as an
+                        intern, actively participating in the development of
+                        internal tools. My freelancing experience extends to
+                        Shopify, where I successfully undertook various
+                        projects. As the head software developer for a startup,
+                        I managed all aspects of application development,
+                        specializing in React Native for frontend development
+                        and gaining valuable insights into cloud services,
+                        including expertise in cloud functions and overall cloud
+                        development.
                     </span>
                 </p>
                 <h3>Education</h3>
